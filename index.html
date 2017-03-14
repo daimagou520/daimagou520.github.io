@@ -368,14 +368,15 @@
 
       
         
-          
-            <h2 id="如何添加“分类”页面"><a href="#如何添加“分类”页面" class="headerlink" title="如何添加“分类”页面"></a>如何添加“分类”页面</h2><p>1、执行如下命令<br><code>$ hexo new page &#39;categories&#39;</code><br>2、编辑index.md（路径为:/source/categories/index.md）,设置其内容为如下：</p>
+          <h2 id="如何添加“分类”页面"><a href="#如何添加“分类”页面" class="headerlink" title="如何添加“分类”页面"></a>如何添加“分类”页面</h2><p>1、执行如下命令<br><code>$ hexo new page &#39;categories&#39;</code><br>2、编辑index.md（路径为:/source/categories/index.md）,设置其内容为如下：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">---</div><div class="line">title: </div><div class="line">date: 2017-03-14 21:53:33</div><div class="line">type: &quot;categories&quot;</div><div class="line">comments: false</div><div class="line">---</div></pre></td></tr></table></figure>
-<p>3、在菜单中添加链接。编辑 主题配置文件 ，添加 categories 到 menu 中，如下:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">menu:</div><div class="line">  home: /</div><div class="line">  archives: /archives</div><div class="line">  categories: /categories</div><div class="line">  tags: /tags</div></pre></td></tr></table></figure>
-<p>4、发布文章，给文章添加 categories 字段，如下所示：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">---</div><div class="line">title: 测试评论的</div><div class="line">date: 2017-03-14 17:54:58</div><div class="line">tags: 测试</div><div class="line">categories: 人生</div><div class="line">---</div></pre></td></tr></table></figure>
-          
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2017/03/14/test/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
